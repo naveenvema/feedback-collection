@@ -9,6 +9,8 @@ import Login from "./Components/Login/Login";
 import Home from "./Components/Home/Home";
 import FeedbackForms from "./Components/FeedbackForms/FeedbackForms";
 
+import ProductReviewForm from "./Components/FeedbackForms/ProductReviewForm"
+
 
 const App = () => {
   const [isPlay, setIsPlay] = useState(false);
@@ -39,6 +41,7 @@ const App = () => {
         <Route path='/home' element={<Home />}/>
         <Route path='/feedbackforms' element={<FeedbackForms />}/>
         {/* <Route path='/feedback' element={<Feedback />}/> */}
+        <Route path='/product-review' element={<ProductReviewForm />}/>
       </Routes>
         
       </switch>
