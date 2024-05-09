@@ -15,11 +15,11 @@ const NavLinks = [
     name: "Feedback",
     link: "/feedbackforms",
   },
-  {
-    id: 3,
-    name: "Admin Login",
-    link: "/login",
-  },
+ // {
+   // id: 3,
+   // name: "Admin Login",
+    //link: "/login",
+  //},
   {
     id: 4,
     name: "Logout",
